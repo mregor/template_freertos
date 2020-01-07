@@ -1,1 +1,1 @@
-# template_cmsis for stm32f103x8
+# template_freertos for stm32f103x8
