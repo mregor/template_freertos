@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "\"/home/egor/arm-tools/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-gcc\" -mthumb -mcpu=cortex-m3",
+            "includePath": [
+				"${workspaceRoot}/include",
+				"${workspaceRoot}/src",
+                "${workspaceRoot}/CMSIS/include",
+				"${workspaceRoot}/CMSIS/src",
+				"${workspaceRoot}/freertos/include",
+				"${workspaceRoot}/freertos/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceRoot}/include",
+					"${workspaceRoot}/CMSIS",
+					"${workspaceRoot}/freertos",
+                    ""
+                ]
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
