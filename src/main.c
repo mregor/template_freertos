@@ -28,6 +28,6 @@ void tLED_Blink (void *argument)
 		GPIOC->BSRR |= GPIO_BSRR_BS13;
 		vTaskDelay(500);
 	    GPIOC->BSRR |= GPIO_BSRR_BR13;
-		vTaskDelay(500);
+		vTaskDelay(1000);
 	}
 }
