@@ -4,11 +4,11 @@ TARGET  = template
 
 # Инструменты
 #-------------------------------------------------------------------------------
-AS := /home/egor/arm-tools/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-gcc
-CC := /home/egor/arm-tools/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-gcc
-LD := /home/egor/arm-tools/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-gcc
-CP := /home/egor/arm-tools/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-objcopy
-SZ := /home/egor/arm-tools/gcc-arm-none-eabi-8-2019-q3-update/bin/arm-none-eabi-size
+AS := arm-none-eabi-gcc
+CC := arm-none-eabi-gcc
+LD := arm-none-eabi-gcc
+CP := arm-none-eabi-objcopy
+SZ := arm-none-eabi-size
 RM := rm -f
 
 # Пути к CMSIS, FreeRTOS
